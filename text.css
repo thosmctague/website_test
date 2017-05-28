@@ -1,0 +1,108 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+h1 {
+	font-size: 50px;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	letter-spacing: 0.3em;
+	top: 40%;
+}
+
+h1, p {
+	font-family: Arial, sans-serif;
+	color: hsla(237, 57%, 18%, 0.6);
+}
+
+p {
+	line-height: 1.5em;
+	margin-top: 1em;
+}
+
+
+a {
+	font-family: Verdana, sans-serif;
+	color: #ffaa07;
+	text-decoration: shadow;
+}
+
+img {
+	border-radius: 10%
+}
+
+.under-header-bar ul {
+  margin: auto;
+  position: relative;
+  top: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.under-header-bar li {
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	color: #EEE;
+	padding: 5px;
+	list-style: none;
+	width: 150px;
+	text-align: center;
+	transition: background 0.5s;
+}
+
+.under-header-bar li:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.under-header-bar li a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.content-box {
+	margin: 1em auto;
+	position: relative;
+	width: 80%;
+	overflow-y: scroll;
+}
+
+.header {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg");
+    height: 400px;
+    background-position: center center;
+}
+
+.under-header-bar {
+	background-color: DarkSlateGray;
+	height: 50px;	
+}
+
+.photo {
+	background-color: LightSlateGray;
+	height: 300px;
+	text-align: center;
+	padding-top: 9%
+	}
+
+.outer-border {
+	border: 2px solid #EEE;
+
+}
+
+.columns {
+	display: flex;
+}
+
+.columns p#last-paragraph {
+	width: 200%;
+}
+
+.columns p {
+	width: 100%;
+	padding: 1em;
+}
